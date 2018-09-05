@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Sample_HeightDetection : MonoBehaviour {
 
+	public float line_tensity=1.0f;
+
     public Text height_display;
     public LayerMask targetLayer;
 
@@ -34,7 +36,7 @@ public class Sample_HeightDetection : MonoBehaviour {
             float line_length = Mathf.Abs(hit.point.x - line_end.x);
             horizontal_line.SetPosition(1, line_end);
 
-            horizontal_line.material.SetTextureScale("_MainTex", new Vector2(line_length * 2, 1));
+			horizontal_line.material.SetTextureScale("_MainTex", new Vector2(line_length * 2*line_tensity, 1));
             
 
             vertical_line.SetPosition(0, line_end);
@@ -42,7 +44,7 @@ public class Sample_HeightDetection : MonoBehaviour {
             vertical_line.SetPosition(1, line_end);
 
             line_length = Mathf.Abs(hit.point.y - line_end.y);
-            vertical_line.material.SetTextureScale("_MainTex", new Vector2(line_length * 2, 1));
+			vertical_line.material.SetTextureScale("_MainTex", new Vector2(line_length * 2* line_tensity, 1));
 
 
         }
