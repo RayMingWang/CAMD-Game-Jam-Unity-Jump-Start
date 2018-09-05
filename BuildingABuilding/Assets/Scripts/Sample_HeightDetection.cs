@@ -29,13 +29,20 @@ public class Sample_HeightDetection : MonoBehaviour {
 
             horizontal_line.SetPosition(0, hit.point);
             Vector3 line_end = hit.point;
+            
             line_end.x = -transform.localScale.x / 2;
+            float line_length = Mathf.Abs(hit.point.x - line_end.x);
             horizontal_line.SetPosition(1, line_end);
+
+            horizontal_line.material.SetTextureScale("_MainTex", new Vector2(line_length * 2, 1));
+            
 
             vertical_line.SetPosition(0, line_end);
             line_end.y = 0;
             vertical_line.SetPosition(1, line_end);
 
+            line_length = Mathf.Abs(hit.point.y - line_end.y);
+            vertical_line.material.SetTextureScale("_MainTex", new Vector2(line_length * 2, 1));
 
 
         }
