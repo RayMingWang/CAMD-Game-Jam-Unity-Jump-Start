@@ -1,50 +1,52 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Sample_BlockSpawner : MonoBehaviour {
-    public float horizontal_force = 2.0f;
-    public float extra_gravity = 9.81f;
-
-    public GameObject[] building_list;
-    public Material[] color_list;
-    public float spawn_time =0.8f;
-    public GameObject building_block;
-    public float launchspeed_multiplier=1.5f;
-    public float launchspeed_vertical_multiplier = 0.5f;
+    
+    
+    public float HorizontalForce = 2.0f;
+    public float ExtraGravity = 9.81f;
+    public GameObject[] BuildingList;
+    public Material[] ColorList;
+    public float SpawnTime =0.8f;
+    public GameObject BuildingBlock;
+    public float LaunchSpeedMultiplier=1.5f;
+    public float LaunchSpeedVerticalMultiplier = 0.5f;
 
     
     // Use this for initialization
-    private Rigidbody rb;
+    private Rigidbody _rb;
     
 	void Start () {
-        rb = GetComponent<Rigidbody>();
+        _rb = GetComponent<Rigidbody>();
 	}
 
 
 
     private void FixedUpdate()
     {
-        rb.velocity += Vector3.down * extra_gravity;
+        _rb.velocity += Vector3.down * ExtraGravity;
 
-        rb.velocity += Vector3.right * horizontal_force * Input.GetAxis("Horizontal");
+        _rb.velocity += Vector3.right * HorizontalForce * Input.GetAxis("Horizontal");
 
 
         if (Input.GetKey("space"))
         {
-            if (building_block != null)
+            if (BuildingBlock != null)
             {
 
-                building_block.GetComponent<Rigidbody>().isKinematic = false;
+                BuildingBlock.GetComponent<Rigidbody>().isKinematic = false;
 
-                Vector3 launch_speed = rb.velocity * launchspeed_multiplier;
-                launch_speed.y = rb.velocity.y* launchspeed_vertical_multiplier;
-                building_block.GetComponent<Rigidbody>().velocity = launch_speed;
-                building_block.transform.parent = null;
-                building_block.GetComponent<BoxCollider>().enabled = true;
-                building_block.GetComponent<Sample_BuildingBlock>().released = true;
+                Vector3 launchSpeed = _rb.velocity * LaunchSpeedMultiplier;
+                launchSpeed.y = _rb.velocity.y* LaunchSpeedVerticalMultiplier;
+                BuildingBlock.GetComponent<Rigidbody>().velocity = launchSpeed;
+                BuildingBlock.transform.parent = null;
+                BuildingBlock.GetComponent<BoxCollider>().enabled = true;
+                BuildingBlock.GetComponent<Sample_BuildingBlock>().released = true;
 
-                building_block = null;
+                BuildingBlock = null;
                 StartCoroutine("SpawnBuildingBlock");
 
             }
@@ -54,9 +56,9 @@ public class Sample_BlockSpawner : MonoBehaviour {
     IEnumerator SpawnBuildingBlock()
     {
 
-        yield return new WaitForSeconds(spawn_time);
+        yield return new WaitForSeconds(SpawnTime);
         
-        building_block = Instantiate(building_list[Random.Range(0,building_list.Length)], transform);
-        building_block.GetComponent<MeshRenderer>().material = color_list[Random.Range(0, color_list.Length)];
+        BuildingBlock = Instantiate(BuildingList[Random.Range(0,BuildingList.Length)], transform);
+        BuildingBlock.GetComponent<MeshRenderer>().material = ColorList[Random.Range(0, ColorList.Length)];
     }
 }
