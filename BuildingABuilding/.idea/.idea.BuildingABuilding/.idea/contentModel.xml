@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Rimen\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Rimen\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_BuildingABuilding.-1553805592.00" t="ExcludeRecursive" />
-    <e p="G:\UnityProject\CAMD-Game-Jam-Unity-Jump-Start\BuildingABuilding" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets\Scripts" t="Include">
+      <e p="Assets/Scripts" t="Include">
         <e p="Sample_BlockSpawner.cs" t="Include" />
         <e p="Sample_BuildingBlock.cs" t="Include" />
         <e p="Sample_HeightDetection.cs" t="Include" />
         <e p="Sample_PlatformController.cs" t="Include" />
       </e>
-      <e p="Assets\ThirdPartyAsset" t="Include">
+      <e p="Assets/ThirdPartyAsset" t="Include">
         <e p="LowpolySimpleHouse" t="Include">
           <e p="PostProcessing" t="Include">
             <e p="Editor" t="Include">
@@ -200,5 +198,7 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_BuildingABuilding.-2083024459.00" t="ExcludeRecursive" />
   </component>
 </project>

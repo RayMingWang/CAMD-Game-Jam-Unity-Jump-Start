@@ -848,7 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be6d881a55821a4084cede2c9b93e14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HorizontalForce: 2
+  HorizontalForce: -2
   ExtraGravity: 9.81
   BuildingList: []
   ColorList: []

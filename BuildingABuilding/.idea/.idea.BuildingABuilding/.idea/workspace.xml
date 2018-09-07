@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a5fcd3-b78a-4b08-a6c5-eb0fe44a768c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BuildingABuilding/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BuildingABuilding/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BuildingABuilding/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BuildingABuilding/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BuildingABuilding/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Block1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Block1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Block2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Block2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Block3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Block3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Block4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Block4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Building Block.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Building Block.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/GreenBlock.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/GreenBlock.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/GreyBlock.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/GreyBlock.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/Orange.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/OrangeBlock.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuildingBlock/OrangeBlock.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/PostProcessing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/PostProcessing/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Minimalist Free.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sample_BlockSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sample_BlockSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sample_HeightDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sample_HeightDetection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sample_PlatformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sample_PlatformController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BuildingABuilding/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BuildingABuilding/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BuildingABuilding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BuildingABuilding/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TrainingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TrainingScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +43,15 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1948833762">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -83,11 +60,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <marker date="1536276926646" expanded="true" signature="6:88" ph="..." />
-                <marker date="1536276926646" expanded="true" signature="154:407" ph="{...}" />
-                <marker date="1536276926646" expanded="true" signature="278:405" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -95,17 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sample_BlockSpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="510">
               <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-              <folding>
-                <marker date="1536279635927" expanded="false" signature="6:111" ph="..." />
-                <marker date="1536279635927" expanded="true" signature="162:1882" ph="{...}" />
-                <marker date="1536279635927" expanded="true" signature="584:629" ph="{...}" />
-                <marker date="1536279635927" expanded="true" signature="663:1561" ph="{...}" />
-                <marker date="1536279635927" expanded="true" signature="847:1555" ph="{...}" />
-                <marker date="1536279635927" expanded="true" signature="896:1545" ph="{...}" />
-                <marker date="1536279635927" expanded="true" signature="1599:1880" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,10 +78,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1536248873001" expanded="false" signature="6:78" ph="..." />
-                <marker date="1536248873001" expanded="true" signature="130:401" ph="{...}" />
-                <marker date="1536248873001" expanded="true" signature="222:399" ph="{...}" />
-                <marker date="1536248873001" expanded="true" signature="276:384" ph="{...}" />
+                <marker date="1536168378137" expanded="false" signature="6:78" ph="..." />
+                <marker date="1536168378137" expanded="true" signature="130:401" ph="{...}" />
+                <marker date="1536168378137" expanded="true" signature="222:399" ph="{...}" />
+                <marker date="1536168378137" expanded="true" signature="276:384" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -127,15 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sample_HeightDetection.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-              <folding>
-                <marker date="1536280008636" expanded="false" signature="6:133" ph="..." />
-                <marker date="1536280008636" expanded="true" signature="187:1825" ph="{...}" />
-                <marker date="1536280008636" expanded="true" signature="554:1823" ph="{...}" />
-                <marker date="1536280008636" expanded="true" signature="814:1698" ph="{...}" />
-                <marker date="1536280008636" expanded="true" signature="1711:1817" ph="{...}" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -166,10 +122,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1713" />
-    <option name="width" value="1734" />
-    <option name="height" value="1447" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="23" />
+    <option name="width" value="1329" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,12 +134,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -232,11 +189,12 @@
       <updated>1536263436407</updated>
       <workItem from="1536263440144" duration="2948000" />
       <workItem from="1536276867930" duration="1489000" />
+      <workItem from="1536292644113" duration="140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4437000" />
+    <option name="totallyTimeSpent" value="4577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,9 +206,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1713" y="0" width="1734" height="1447" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18637992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -295,59 +254,29 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sample_HeightDetection.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding>
-            <marker date="1536280008636" expanded="false" signature="6:133" ph="..." />
-            <marker date="1536280008636" expanded="true" signature="187:1825" ph="{...}" />
-            <marker date="1536280008636" expanded="true" signature="554:1823" ph="{...}" />
-            <marker date="1536280008636" expanded="true" signature="814:1698" ph="{...}" />
-            <marker date="1536280008636" expanded="true" signature="1711:1817" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sample_PlatformController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <marker date="1536276926646" expanded="true" signature="6:88" ph="..." />
-            <marker date="1536276926646" expanded="true" signature="154:407" ph="{...}" />
-            <marker date="1536276926646" expanded="true" signature="278:405" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sample_BlockSpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="510">
           <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <marker date="1536279635927" expanded="false" signature="6:111" ph="..." />
-            <marker date="1536279635927" expanded="true" signature="162:1882" ph="{...}" />
-            <marker date="1536279635927" expanded="true" signature="584:629" ph="{...}" />
-            <marker date="1536279635927" expanded="true" signature="663:1561" ph="{...}" />
-            <marker date="1536279635927" expanded="true" signature="847:1555" ph="{...}" />
-            <marker date="1536279635927" expanded="true" signature="896:1545" ph="{...}" />
-            <marker date="1536279635927" expanded="true" signature="1599:1880" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sample_HeightDetection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sample_BuildingBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1536248873001" expanded="false" signature="6:78" ph="..." />
-            <marker date="1536248873001" expanded="true" signature="130:401" ph="{...}" />
-            <marker date="1536248873001" expanded="true" signature="222:399" ph="{...}" />
-            <marker date="1536248873001" expanded="true" signature="276:384" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
